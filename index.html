@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="de-ch">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="js/script.js"></script>
+    <title>Nik Wey</title>
+</head>
+<body>
+    <div class="thing"></div>
+    <div class="container">
+        <nav>
+          <ul>
+            <li id="about">/about</li>
+            <li id="contact">/contact</li>
+            <li id="dogecoin">/dogecoin</li>
+          </ul>
+        </nav>
+  
+        <main>
+          <h2><span class="clientID"></span>@NIKWEY.CH:$<span class="cursor">|</span></h2>
+          <h4>Find me online:</h4>
+          <ul>
+            <li>
+              <a href="https://www.instagram.com/nikwey.ch/" target="_blank">Instagram</a>
+            </li>
+            <li>
+              <a href="https://github.com/weysoft" target="_blank">Github</a>
+            </li>
+          </ul>
+        </main>
+      </div>
+  
+      <div class="hidden">
+        <div id="about-content">
+          <h2><span class="clientID"></span>@about-me:$<span class="cursor">|</span></h2>
+          <p>My name is Nik and I'm fairly new to programing</p>
+          <p>
+            Some of the languages that I know the fundamentals include JavaScript/Typescript, Java, C#, Python and Ruby
+          </p>
+        </div>
+  
+        <div id="contact-content">
+          <h2><span class="clientID"></span>@contact-me:$<span class="cursor">|</span></h2>
+          <p>You can contact me at the email and discord below</p>
+          <ul>
+            <li>Discord: Babanik#8816</li>
+            <li>Email: info@nikwey.ch</li>
+          </ul>
+        </div>
+
+        <div id="dogecoin-content">
+          <h2><span class="clientID"></span>@dogecoin:$<span class="cursor">|</span></h2>
+          <p>Here you can see the current Dogecoin Prices on <span id="exchanges"></span></p>
+          <ul id="listCoin">
+          </ul>
+        </div>
+      </div>  
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>      
+      <script src="js/winbox.bundle.js"></script>
+</body>
+</html>
